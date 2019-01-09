@@ -6,16 +6,16 @@
 
 ## First Screen
 
-![First Screen](https://imgur.com/z0BPPJ7.png)
+<img alt="First Screen" src="https://imgur.com/z0BPPJ7.png" width="450" height="750" />
 
 ## Second Screen
 
-![Second Screen](https://imgur.com/9IwLEzZ.png)
+<img alt="First Screen" src="https://imgur.com/9IwLEzZ.png" width="450" height="750" />
 
 ## Tabs Screen
 
-![Tabs Screen](https://imgur.com/1BA136X.png)
+<img alt="Tabs Screen" src="https://imgur.com/1BA136X.png" width="450" height="750" />
 
 ## Drawer
 
-![Drawer Screen](https://imgur.com/BDoHew9.png)
+<img alt="Drawer Screen" src="https://imgur.com/BDoHew9.png" width="450" height="750" />
