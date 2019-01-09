@@ -24,7 +24,7 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
       case 2:
         return Tabs();
       default:
-        return FirstScreen();
+        return NavigationDrawer();
     }
   }
 
@@ -33,7 +33,12 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
       _selectionIndex = index;
       _getDrawerItemScreen(_selectionIndex);
     });
-    Navigator.of(context).pop();
+    Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => _getDrawerItemScreen(_selectionIndex),
+      ),
+    );
   }
 
   @override
@@ -69,7 +74,7 @@ class _NavigationDrawerState extends State<NavigationDrawer> {
           ],
         ),
       ),
-      body: _getDrawerItemScreen(_selectionIndex),
+      body: FirstScreen(),
     );
   }
 }
